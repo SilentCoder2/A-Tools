@@ -1,0 +1,15 @@
+#!/bin/bash
+clear
+chars="---------------------------"
+l=1
+while [ $l -le 1 ]
+do
+for (( i=0; i<${#chars}; i++ )); do
+sleep 0.1
+echo -en "\e[93mInitializing-\e[93m${chars:5:$i}"*"\r\e[0m"
+done
+l=$(( $l + 1))
+done
+mkdir $HOME/tools
+pkg install git -y
+pkg install figlet
