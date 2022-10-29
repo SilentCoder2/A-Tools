@@ -135,7 +135,6 @@ if ![ -f git clone $link ]
 then echo "error......"
 else
 echo "download"
-#git clone $link
 fi
 rep
 }
