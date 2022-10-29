@@ -163,3 +163,4 @@ echo -e "\e[91m Invalid Option\e[0m"
 sleep 0.8
 rep
 esac
+clear
