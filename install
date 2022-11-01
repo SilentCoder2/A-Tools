@@ -11,7 +11,6 @@ done
 l=$(( $l + 1))
 done
 mkdir $HOME/tools
-pkg install git -y
 pkg install figlet
 clear
 echo -e "\e[31m";figlet -f digital Installation Done

@@ -65,16 +65,16 @@ bash atool.sh
 bye_atool()	{
 clear
 echo -e "\e[31m";figlet -f digital Bye
-sleep 0.3
+sleep 0.2
 clear
 echo -e "\e[32m";figlet -f digital Bye
-sleep 0.3
+sleep 0.2
 clear
 echo -e "\e[33m";figlet -f digital Bye
-sleep 0.3
+sleep 0.2
 clear
 echo -e "\e[34m";figlet -f digital Bye
-sleep 0.3
+sleep 0.2
 clear
 exit
 }
@@ -83,11 +83,7 @@ echo -en "\e[93mDownloading SocialPhish---------------\e[91m" "\r\e[0m"
 sleep 0.5
 cd $HOME/tools
 link='https://github.com/xHak9x/SocialPhish.git'
-if ![ -f git clone $link ]
-then echo "error......"
-else
 git clone $link
-fi
 rep
 }
 Instagram_Info_Gathering()	{
@@ -95,11 +91,7 @@ echo -en "\e[93mDownloading osi.ig---------------\e[91m" "\r\e[0m"
 sleep 0.5
 cd $HOME/tools
 link='https://github.com/th3unkn0n/osi.ig.git'
-if ![ -f git clone $link ]
-then echo "error......"
-else
 git clone $link
-fi
 rep
 }
 Grab_Location()	{
@@ -107,11 +99,7 @@ echo -en "\e[93mDownloading seeker---------------\e[91m" "\r\e[0m"
 sleep 0.5
 cd $HOME/tools
 link='https://github.com/thewhiteh4t/seeker.git '
-if ![ -f git clone $link ]
-then echo "error......"
-else
 git clone $link
-fi
 rep
 }
 TxT_Bombing()	{
@@ -119,23 +107,15 @@ echo -en "\e[93mDownloading TBomb---------------\e[91m" "\r\e[0m"
 sleep 0.5
 cd $HOME/tools
 link='https://github.com/TheSpeedX/TBomb.git'
-if ![ -f git clone $link ]
-then echo "error......"
-else
 git clone $link
-fi
 rep
 }
 Set_banner()	{
 echo -en "\e[93mDownloading TBomb---------------\e[91m" "\r\e[0m"
 sleep 0.5
 cd $HOME/tools
-link='https://github.com/TheSpeedX/TBomb.git'
-if ![ -f git clone $link ]
-then echo "error......"
-else
-echo "download"
-fi
+link='no link'
+echo "no download"
 rep
 }
 #=============================================================================================#
